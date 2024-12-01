@@ -1,0 +1,4 @@
+INFO: 2024/11/08 15:44:06 /Users/lgpzll/github/zlllgp/dream/best/log/slog.go:36: This is a test log entry
+ERROR: 2024/11/08 15:44:06 /Users/lgpzll/github/zlllgp/dream/best/log/slog.go:62: This is an error message
+WARNING: 2024/11/08 15:44:06 /Users/lgpzll/github/zlllgp/dream/best/log/slog.go:67: This is a warning message
+INFO: 2024/11/08 15:44:06 /Users/lgpzll/github/zlllgp/dream/best/log/slog.go:72: This is an info message

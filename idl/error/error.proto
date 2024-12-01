@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package api;
+
+option go_package = "api";
+
+enum ErrCode {
+  ErrOk = 0;
+  PARAM_ERROR = 991;
+  DB_ERROR = 992;
+}

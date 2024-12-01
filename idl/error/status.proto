@@ -1,0 +1,12 @@
+//idl/error/errors.proto
+syntax = "proto3";
+package api;
+option go_package = "api";
+
+import "google/protobuf/any.proto";
+
+message Status{
+  int32 code = 1;
+  string message = 2;
+  repeated google.protobuf.Any details = 3;
+}
